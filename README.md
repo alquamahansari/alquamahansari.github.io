@@ -48,7 +48,7 @@ alqamahansari.github.io/
 
 ```bash
 git clone https://github.com/AlqamahAnsari/alquamahansari.github.io.git
-cd alqamahansari.github.io
+cd alquamahansari.github.io
 ```
 
 2. Install dependencies:
