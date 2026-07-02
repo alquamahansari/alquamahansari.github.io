@@ -22,7 +22,7 @@ I am Mohammad Alquamah Ansari, a final-year B.Sc. Artificial Intelligence studen
 ## Repository Structure
 
 ```
-alqamahansari.github.io/
+alquamahansari.github.io/
 ├─ public/              # Public assets and favicon
 ├─ src/
 │  ├─ components/       # Reusable React components
