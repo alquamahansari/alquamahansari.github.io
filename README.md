@@ -6,10 +6,10 @@ Welcome to my personal portfolio website! This repository hosts the source code 
 
 I am Mohammad Alquamah Ansari, a final-year B.Sc. Artificial Intelligence student with a minor in Computer Science. I have hands-on experience in Python, Deep Learning, NLP and Data Analytics, with a strong foundation in building real-world AI and ML applications. I am passionate about leveraging AI to solve practical business problems, improve decision-making, and drive innovation. My goal is to contribute effectively to industry projects while continuously enhancing my skills in AI, ML, and software development.
 
-- [Portfolio Website](https://alqamahansari.github.io/)
+- [Portfolio Website](https://alquamahansari.github.io/)
 - Email: alquamahansari@gmail.com
-- LinkedIn: [alqamahansari](https://www.linkedin.com/in/alqamahansari/)
-- GitHub: [AlqamahAnsari](https://github.com/AlqamahAnsari)
+- LinkedIn: [alquamahansari](https://www.linkedin.com/in/alquamahansari/)
+- GitHub: [alquamahansari](https://github.com/alquamahansari)
 
 ## Tech Stack
 
@@ -22,7 +22,7 @@ I am Mohammad Alquamah Ansari, a final-year B.Sc. Artificial Intelligence studen
 ## Repository Structure
 
 ```
-alqamahansari.github.io/
+alquamahansari.github.io/
 ├─ public/              # Public assets and favicon
 ├─ src/
 │  ├─ components/       # Reusable React components
@@ -47,8 +47,8 @@ alqamahansari.github.io/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/AlqamahAnsari/alqamahansari.github.io.git
-cd alqamahansari.github.io
+git clone https://github.com/alquamahansari/alquamahansari.github.io.git
+cd alquamahansari.github.io
 ```
 
 2. Install dependencies:
