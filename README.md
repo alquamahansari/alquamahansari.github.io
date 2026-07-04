@@ -47,7 +47,7 @@ alquamahansari.github.io/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/AlqamahAnsari/alqamahansari.github.io.git
+git clone https://github.com/alquamahAnsari/alqamahansari.github.io.git
 cd alqamahansari.github.io
 ```
 
