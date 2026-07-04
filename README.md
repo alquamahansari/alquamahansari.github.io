@@ -47,8 +47,8 @@ alquamahansari.github.io/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/alquamahansari/alquamahansari.github.io.git
-cd alquamahansari.github.io
+git clone https://github.com/AlqamahAnsari/alqamahansari.github.io.git
+cd alqamahansari.github.io
 ```
 
 2. Install dependencies:
