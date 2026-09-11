@@ -4,13 +4,13 @@ import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
-    tag: "Multimodal AI · CV + NLP",
-    title: "AI Interview Performance Analyzer",
-    image: "/images/interview-analyzer.png",
+    tag: "Full-Stack · Backend",
+    title: "Store Rating & Review Platform",
+    image: "/images/store-rating-app.png", // ← needs a real screenshot
     description:
-      "Multimodal pipeline combining CNN-based facial emotion recognition with NLP speech evaluation. Generates structured interview scoring, confidence metrics, and performance feedback reports.",
-    tech: ["PyTorch", "CNN", "NLP", "OpenCV", "NLTK", "Streamlit"],
-    repo: "https://github.com/alqamahansari/ai-interview-analyzer",
+  "A full-stack rating platform with Admin, Store Owner, and Normal User roles, enforced via JWT authentication and a relational PostgreSQL schema linking users, stores, and ratings.",
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "JWT", "RBAC"],
+    repo: "https://github.com/alquamahansari/STORE-RATING-APP",
     flip: false,
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     description:
       "End-to-end ML pipeline with Random Forest regression, modular preprocessing, full evaluation suite (R², RMSE, MAE), Docker containerization, CI/CD automation via GitHub Actions, and Streamlit real-time inference.",
     tech: ["Scikit-learn", "Docker", "CI/CD", "Streamlit", "GitHub Actions"],
-    repo: "https://github.com/alqamahansari/car-price-prediction",
+    repo: "https://github.com/alquamahansari/car-price-prediction",
     flip: true,
   },
 ];

@@ -85,9 +85,11 @@ export default function Header() {
         {/* Logo */}
         <button
           onClick={() => handleNavClick({ id: "home", type: "scroll" })}
-          className="text-lg font-bold tracking-tighter text-[#00C9A7] uppercase hover:text-white transition-colors duration-200 font-['Space_Grotesk']"
+          className="flex items-center gap-2 group"
         >
-          Alquamah Ansari
+          <span className="font-mono font-bold text-lg text-[#00C9A7] group-hover:text-white transition-colors duration-200">
+            &lt;MA/&gt;
+          </span>
         </button>
 
         {/* Desktop nav */}

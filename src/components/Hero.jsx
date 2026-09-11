@@ -27,7 +27,7 @@ export default function Hero() {
 
         {/* Label */}
         <span className="block text-xs font-bold tracking-[0.3em] uppercase text-[#00C9A7] font-['Space_Grotesk']">
-          Machine Learning Engineer
+          Software Engineer
         </span>
 
         {/* Name — fixed spelling */}
@@ -40,13 +40,13 @@ export default function Hero() {
 
         {/* Tagline */}
         <p className="text-lg md:text-xl text-[#8fcef5] max-w-2xl mx-auto font-['Inter'] font-light leading-relaxed">
-          I build systems that ship to real users — end-to-end, independently,
-          all the way from raw data to deployed product.
+          I build backend systems and APIs — designing, testing, and shipping
+          them independently, from database schema to deployed service.
         </p>
 
         {/* Stack pills */}
         <div className="flex flex-wrap justify-center gap-3 py-2 font-['Inter'] text-sm text-[#5a9abf]">
-          {["NLP → LLMs", "PyTorch", "Docker", "CI/CD", "End-to-End ML"].map(
+          {["Python", "FastAPI", "PostgreSQL", "Docker", "DSA"].map(
             (item, i, arr) => (
               <React.Fragment key={item}>
                 <span>{item}</span>

@@ -3,7 +3,7 @@ import React from "react";
 
 const stats = [
   { value: "2",   label: "Production Projects Shipped" },
-  { value: "4",   label: "Months MLOps Internship" },
+  { value: "4",   label: "Months Software Dev Experience" },
   { value: "5", label: "Projects Shipped" },
 ];
 
@@ -19,29 +19,33 @@ export default function About() {
               About
             </span>
             <h2 className="font-['Space_Grotesk'] text-white text-3xl font-semibold leading-tight">
-              Most ML models never leave the notebook.
+              Most APIs never leave localhost.
               <span className="text-[#00C9A7]"> I build the ones that do.</span>
             </h2>
           </div>
 
           <div className="space-y-4 font-['Inter'] text-[#8fcef5] text-base font-light leading-relaxed">
             <p>
-              I own the full ML lifecycle — from raw data and feature engineering
-              to model training, evaluation, and containerized deployment with
-              CI/CD automation. My work lives at the intersection of strong
-              modeling fundamentals and production engineering.
+              I focus on the full backend lifecycle from API design and database
+              schema to authentication, testing, and containerized deployment. My
+              work sits at the intersection of solid engineering fundamentals
+              (data structures, algorithms, system design) and shipping real,
+              working systems.
             </p>
             <p>
-              During my internship at Tanvika Solutions, I independently shipped
-              two production ML systems from scratch — a multimodal AI Interview
-              Analyzer combining CNN-based emotion recognition with NLP speech
-              evaluation, and a full MLOps pipeline with Docker, CI/CD, and a
-              Streamlit inference interface.
+              At Swetrasoft, I worked as a Software Developer on a cross-functional
+              iOS team based in Sweden, contributing to feature development, code
+              review, and Agile sprint workflows. I also completed an ML internship
+              at Tanvika Solutions, shipping two production-oriented systems (a
+              multimodal AI Interview Analyzer and a Dockerized MLOps pipeline),
+              applying the same engineering discipline modular code, CI/CD,
+              containerization that now anchors my backend work.
             </p>
             <p>
-              I am currently deepening my focus on NLP systems evolving toward
-              LLM infrastructure — and actively seeking entry-level ML Engineering
-              and MLOps roles at early-stage AI startups where ownership is the job.
+              I'm currently building out backend projects, including an
+              authentication/IAM system with FastAPI and PostgreSQL, and actively
+              looking for Software Engineer / Backend Developer roles where I can
+              bring that same ownership.
             </p>
           </div>
         </div>

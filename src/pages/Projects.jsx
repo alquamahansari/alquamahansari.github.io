@@ -6,16 +6,28 @@ import Footer from "../components/Footer";
 
 const allProjects = [
   {
-    id: "interview-analyzer",
-    category: "Multimodal AI",
-    tag: "CV + NLP",
-    title: "AI Interview Performance Analyzer",
-    image: "/images/interview-analyzer.png",
-    short: "AI system evaluating interview candidates using computer vision and NLP.",
+    id: "store-rating-app",
+    category: "Full-Stack · Backend",
+    tag: "Auth + RBAC",
+    title: "Store Rating & Review Platform",
+    image: "/images/store-rating-app.png", // ← needs a real screenshot
+    short: "Full-stack platform with JWT auth and role-based access control.",
     details:
-      "CNN-based facial emotion recognition combined with NLP speech evaluation pipeline. Generates structured scoring and performance feedback reports with confidence and communication metrics.",
-    tech: ["Python", "CNN", "NLP", "TensorFlow", "OpenCV", "NLTK", "Streamlit"],
-    repo: "https://github.com/alqamahansari/ai-interview-performance-analyzer",
+      "A full-stack rating platform supporting Admin, Store Owner, and Normal User roles, enforced via JWT authentication and route-level middleware. Admins manage users and stores; Store Owners view ratings and analytics scoped to their own store; Users submit and edit ratings. Backed by a relational schema (Users, Stores, Ratings) with foreign-key relationships.",
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "JWT", "RBAC"],
+    repo: "https://github.com/alquamahansari/store-rating-app",
+  },
+  {
+    id: "devops-sample",
+    category: "DevOps",
+    tag: "CI/CD · Containerization",
+    title: "DevOps CI/CD Pipeline",
+    image: "/images/devops-sample.png", // ← needs a real screenshot
+    short: "Dockerized Flask app with an automated CI/CD pipeline.",
+    details:
+      "A small Flask application containerized with Docker, with a GitHub Actions pipeline that runs tests and builds the image on every push, demonstrating a working CI/CD workflow from commit to deployable container.",
+    tech: ["Docker", "GitHub Actions", "Flask", "CI/CD"],
+    repo: "https://github.com/alquamahansari/DevOps-sample",
   },
   {
     id: "car-price",
@@ -27,55 +39,19 @@ const allProjects = [
     details:
       "Random Forest regression with modular preprocessing, cross-validation, full evaluation suite (R², RMSE, MAE), Docker containerization, CI/CD automation via GitHub Actions, and Streamlit real-time inference interface.",
     tech: ["Python", "Random Forest", "Streamlit", "Docker", "CI/CD"],
-    repo: "https://github.com/alqamahansari/car-price-prediction",
+    repo: "https://github.com/alquamahansari/car-price-prediction",
   },
   {
-    id: "emotion-detection",
-    category: "Deep Learning",
-    tag: "Computer Vision",
-    title: "Facial Emotion Detection System",
-    image: "/images/emotion-detection.png",
-    short: "CNN-based facial emotion classification from images.",
+    id: "interview-analyzer",
+    category: "Multimodal AI",
+    tag: "CV + NLP",
+    title: "AI Interview Performance Analyzer",
+    image: "/images/interview-analyzer.png",
+    short: "AI system evaluating interview candidates using computer vision and NLP.",
     details:
-      "Computer vision system using CNN architectures for multi-class facial emotion recognition with structured training, evaluation pipelines, and image preprocessing.",
-    tech: ["Python", "TensorFlow", "OpenCV", "CNN"],
-    repo: "https://github.com/alqamahansari/Emotion-Detection-System",
-  },
-  {
-    id: "depression-detection",
-    category: "NLP",
-    tag: "Text Classification",
-    title: "Depression Detection from Text",
-    image: "/images/depression-detection.png",
-    short: "NLP pipeline for depression signal detection from text data.",
-    details:
-      "Text classification system using NLP techniques to identify depression indicators in written content. Includes preprocessing, feature extraction, and model evaluation pipeline.",
-    tech: ["Python", "Scikit-learn", "NLP", "NLTK"],
-    repo: "https://github.com/alqamahansari/depression-detection",
-  },
-  {
-    id: "atmos",
-    category: "Frontend",
-    tag: "API Integration",
-    title: "Atmos – Weather Intelligence App",
-    image: "/images/atmos.png",
-    short: "Real-time weather visualization with dynamic UI.",
-    details:
-      "Frontend application using OpenWeather API for real-time weather data with responsive dynamic interface and clean visual design.",
-    tech: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
-    repo: "https://github.com/alqamahansari/atmos",
-  },
-  {
-    id: "automatic-railway-crossing",
-    category: "IoT · Embedded",
-    tag: "Arduino · Robotics",
-    title: "Automatic Railway Crossing System",
-    image: "/images/railway-crossing.png",
-    short: "Arduino-based autonomous railway gate system with IR sensing and servo actuation.",
-    details:
-      "Physical scale model using Arduino Nano with IR sensor-based train detection, servo-controlled barrier gates, road traffic signal automation, buzzer alerts, and train signal sequencing — built for engineering exhibition.",
-    tech: ["Arduino", "C++", "IR Sensor", "Servo Motor", "Embedded Systems"],
-    repo: "https://github.com/alqamahansari/automatic-railway-crossing-system",
+      "CNN-based facial emotion recognition combined with NLP speech evaluation pipeline. Generates structured scoring and performance feedback reports with confidence and communication metrics.",
+    tech: ["Python", "CNN", "NLP", "TensorFlow", "OpenCV", "NLTK", "Streamlit"],
+    repo: "https://github.com/alquamahansari/ai-interview-analyzer",
   },
 ];
 
@@ -199,7 +175,7 @@ export default function Projects() {
             Things I've Built
           </h1>
           <p className="font-['Inter'] text-[#8fcef5] text-lg font-light max-w-2xl mt-4">
-            End-to-end ML systems built to ship — not just to score well on paper.
+            Backend systems and APIs built to ship, not just to score well on paper.
           </p>
         </div>
 

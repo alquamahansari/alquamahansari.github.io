@@ -3,40 +3,36 @@ import React from "react";
 
 const stack = [
   {
-    category: "Core AI & Modeling",
+    category: "Backend & APIs",
     skills: [
-      "Machine Learning",
-      "Deep Learning",
-      "Natural Language Processing",
-      "Computer Vision",
-      "Large Language Models",
-      "Time-Series Modeling",
-    ],
-  },
-  {
-    category: "Tools & Frameworks",
-    skills: [
-      "PyTorch",
-      "Scikit-learn",
-      "XGBoost",
-      "NumPy",
-      "Pandas",
-      "Streamlit",
-      "Flask",
-      "NLTK",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "REST APIs",
+      "SQL",
+      "Data Structures & Algorithms",
     ],
   },
   {
     category: "Engineering & Deployment",
     skills: [
-      "MLOps",
       "Docker",
       "CI/CD",
       "GitHub Actions",
       "Git",
-      "Python",
-      "SQL",
       "Linux",
+      "pytest",
+    ],
+  },
+  {
+    category: "ML & Data",
+    skills: [
+      "Machine Learning",
+      "PyTorch",
+      "Scikit-learn",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Pandas",
     ],
   },
 ];

@@ -21,9 +21,9 @@ const experiences = [
     company: "Tanvika Solutions Pvt Ltd",
     location: "Kakinada, India · On-site",
     bullets: [
-      "Built AI Interview Performance Analyzer end-to-end — CNN facial emotion recognition + NLP speech evaluation pipeline using PyTorch",
-      "Built Car Price Prediction MLOps Pipeline — Random Forest, Docker containerization, CI/CD automation, Streamlit deployment",
-      "Full pipeline ownership from raw data to deployed product — no senior ML guidance",
+      "Built AI Interview Performance Analyzer end-to-end CNN facial emotion recognition + NLP speech evaluation pipeline using PyTorch",
+      "Built Car Price Prediction MLOps Pipeline - Random Forest, Docker containerization, CI/CD automation, Streamlit deployment",
+      "Full pipeline ownership from raw data to deployed product, no senior ML guidance",
     ],
     accent: false,
   },
@@ -33,9 +33,10 @@ const experiences = [
     company: "Swetrasoft",
     location: "Tranås, Sweden · Remote",
     bullets: [
-      "iOS application development as part of a cross-functional remote team",
-      "Managed tasks and sprint workflows via Jira in an Agile environment",
-      "Strengthened async collaboration and communication across time zones",
+      "Contributed to design, development, and testing of iOS application features as part of a cross-functional remote team",
+      "Managed sprint workflows and task tracking via Jira in an Agile development environment",
+      "Applied software quality assurance principles and participated in code review cycles",
+      "Collaborated asynchronously across time zones with a distributed engineering team",
     ],
     accent: false,
   },
@@ -169,10 +170,10 @@ export default function ExperienceEducation() {
             {/* Stats grid */}
             <div className="grid grid-cols-2 gap-4 pt-4 border-t border-[#5A9ABF]/20">
               {[
-                { label: "Duration",  value: "Aug 2023 – Apr 2026", color: "text-white" },
-                { label: "GPA",       value: "8.0 / 10",            color: "text-white" },
-                { label: "Focus",     value: "AI / ML",             color: "text-white" },
-                { label: "Status",    value: "Graduated ✓",         color: "text-[#00C9A7]" },
+                { label: "Duration", value: "Aug 2023 – Apr 2026", color: "text-white" },
+                { label: "GPA", value: "8.0 / 10", color: "text-white" },
+                { label: "Focus", value: "AI / ML", color: "text-white" },
+                { label: "Status", value: "Graduated ✓", color: "text-[#00C9A7]" },
               ].map((item) => (
                 <div key={item.label}>
                   <p className="text-xs font-bold tracking-widest uppercase text-slate-500 font-['Space_Grotesk']">
@@ -209,7 +210,7 @@ export default function ExperienceEducation() {
               </p>
               {[
                 "Coordinator, Robo Football League 2025",
-                "Led John McCarthy AI Club — official AI/ML student community under the Department of Artificial Intelligence for 2.5 years",
+                "Led John McCarthy AI Club - official AI/ML student community under the Department of Artificial Intelligence for 2.5 years",
               ].map((a, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <span className="mt-2 w-1 h-1 rounded-full bg-[#00C9A7] flex-shrink-0" />
